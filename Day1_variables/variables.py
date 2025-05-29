@@ -28,6 +28,10 @@ print(len(keyword.kwlist))
    d.complex ()
 '''
 
+#assigment
+number=100
+number+=10
+print(number)
 
 
 
