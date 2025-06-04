@@ -35,7 +35,10 @@ for i in range(0,fibb+1,1):
     a=b
     b=c
 
-
+sumOfAll=0
+for i in range(1,11):
+    a=int(input('Enter the value'))
+    sum+=a
            
 
     

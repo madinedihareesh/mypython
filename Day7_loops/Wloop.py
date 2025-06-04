@@ -43,3 +43,10 @@ while v>0:
     v=v//10
     print(v)
 print("the sum of digits in the value is", sum)    
+
+i=input('Enter the value')
+while i<10:
+    i+=1
+    print(i) 
+else:
+    print('Enter a valid value')        
