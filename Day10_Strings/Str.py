@@ -1,25 +1,32 @@
-str1="Welcome to Python"
-for i in range(len(str1)):
-    print(str1[i], end=' ')
-print(' ')    
+s1='Malayalam'
 
 
-str2="bala-ganesh"
-str3='''Harini'''
-str4="""HI 
-hello 
-world"""
+print('X' not in s1)
 
-print(type(str1))
-print(dir(str))
+#find
+str1='Hi, Hello Welcome to the world'
 
-# #find
-# print(str1.find('Welcome',0,7))
-# #rfind
-# print(str1.rfind(''))
-# #index
-# print(str1.index('W'))
+print(str1.find('o',15,)) 
 
-'''
-'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
-'''
+#rfind
+print(str1.rfind('k'))
+
+#index
+print(str1.rindex('H'))
+
+#count
+print(str1.count('o'))
+
+#ljust
+print(str1.ljust(40,' '))
+
+#rjust
+print(str1.rjust(40,'$'))
+
+#center
+print(str1.center(40,'*'))
+
+#zfill
+print(str1.zfill(40))
+
+
