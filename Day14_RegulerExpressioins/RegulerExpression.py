@@ -28,13 +28,35 @@ print(Regex.split(' ','My name is Amardeep'))
 # 0-9
 # a-z
 # A-Z
-# .
+
 
 # Special Charaters
 # [] [0-9a-zA-Z]
 print(Regex.fullmatch('[0-9a-zA-Z]+','098765432asdfghjklASDFGH'))
 # [^]
+print(Regex.fullmatch('[^a-z0-9 ]*','HIMYNAMEISHAREESH@#$%&*'))
 # .
+print(Regex.fullmatch('[a-zA-Z0-9$#. ]*','Hi my name is Ganesh \nmy age is 21yrs old'))
 # ^[]
+print(Regex.fullmatch('^[A-z]{1}[a-z]*','Ganesh Bala'))
 # $
+# email=input('Enter your emailID: ')
+# print(Regex.fullmatch('[a-z0-9_\.]*@{1}[a-z]{5}\.com{1}',email))
 # R|S
+print(Regex.fullmatch('gmail|yahoo','ganesh'))
+
+
+
+# sequence
+'''
+\d [0-9]
+\D ^[0-9]
+\w  Alphanumaric
+\W  Non-AlphaNumaric(specialCharecters)
+\s  whitespaces
+\S  
+\A  starting
+\Z  ending
+'''
+print(Regex.fullmatch('[\w.]*@(gmail|yahoo|outlook){1}\.com{1}','achieversit@gmail.com'))
+
