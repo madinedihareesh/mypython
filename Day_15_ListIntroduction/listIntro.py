@@ -101,4 +101,65 @@ L1.clear()
 print(L1)
 # del
 del(L1)
-print(L1)
+
+l1=['Kundan','hareesh']
+l1[0]='Ramcharan'
+print(l1)
+
+l2=list('kundan')
+print(l2)
+l2[1]='a'
+print(l2)
+
+# Indexing,sort,reverse
+
+# L1=[1,2,3,4,5,6,2,7,8]
+# L3=L1[::-1]
+# print(L3)
+# L1.reverse()
+# print(L1)
+# print(L1.index(2,2,len(L1)))
+
+# print(L1.count(2))
+
+# L2=list('python')
+# print(L2)
+
+
+# L4=[70,10,30,60,20,50,40]
+# L4.sort(reverse=True)
+# print(L4)
+
+# L5=['cat','dog','apple','bannana','Zeebra','Lion']
+# L5.sort(key=len,reverse=True)
+# print(L5)
+
+# List Comprehensions
+# syntax: exp for x in ittarable
+
+
+# L1= [x for x in range(1,6)]
+# print(L1)
+# L2=[x**2 for x in range(1,6)]
+# print(L2)
+# L3=[x.upper() for x in 'python']
+# print(L3)
+
+# Nested List
+L1=[1,2,3,4,[5,6,7]]
+print(L1[4][0])
+print(L1[0]+L1[1])
+
+L1=[[],[],[]]
+L1[0].extend([1,2,3,4])
+L1[1].extend([5,6,7,8])
+L1[2].extend([9,10,11,12])
+
+for i in range(len(L1)):
+    for j in range(len(L1)+1):
+        print(L1[i][j],end=' ')
+    print(' ')    
+
+    
+
+ 
