@@ -61,5 +61,5 @@
 
 # tuple cpmprahension
 
-t1=(*(x**2 for x in range(1,5)),)
-print(t1)
+# t1=(*(x**2 for x in range(1,5)),)
+# print(t1)
