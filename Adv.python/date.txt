@@ -1,0 +1,5 @@
+1.datetime
+2. time (it is a sub class of datetime)
+3.date(it is a sub class of datetime module)
+
+epoch time: 1st jan 1970
